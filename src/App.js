@@ -46,7 +46,7 @@ function App() {
                 to: selectedTo
             });
 
-            const response = await fetch(`http://localhost:3001/travel-offers?${params}`);
+            const response = await fetch(`http://localhost:3002/travel-offers?${params}`);
 
             if (!response.ok) {
                 const errorData = await response.json();
@@ -81,7 +81,7 @@ function App() {
             setIsBookingHistoryLoading(true);
             setBookingHistoryError('');
 
-            const response = await fetch('http://localhost:3001/booking-history');
+            const response = await fetch('http://localhost:3002/booking-history');
 
             if (!response.ok) {
                 const errorData = await response.json();
@@ -116,7 +116,7 @@ function App() {
         try {
             const formData = new FormData(event.target);
 
-            const response = await fetch('http://localhost:3001/bookings', {
+            const response = await fetch('http://localhost:3002/bookings', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
