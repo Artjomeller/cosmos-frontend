@@ -46,7 +46,8 @@ function App() {
                 to: selectedTo
             });
 
-            const response = await fetch(`http://localhost:3002/travel-offers?${params}`);
+            // const response = await fetch(`https://cosmos-backend-c3a772298f71.herokuapp.com/travel-offers?${params}`);
+             const response = await fetch(`http://localhost:3002/travel-offers?${params}`);
 
             if (!response.ok) {
                 const errorData = await response.json();
