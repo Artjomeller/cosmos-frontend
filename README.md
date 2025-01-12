@@ -1,11 +1,12 @@
-# Project Name - Cosmos Odyssey
+# Cosmos Odyssey
 
-This document provides the setup instructions for the frontend component of the C D. It assumes that the backend is already up and running.
+A space travel booking application that allows users to book flights between different planets in our solar system. Built with React, Node.js, Express, and Firebase.
 
 ## Prerequisites
 
 Before proceeding, ensure the following is installed:
-- Node.js (visit [Node.js](https://nodejs.org/) to download)
+- Node.js and npm installed
+- Install firebase (`npm install firebase-admin`)
 - React Scripts (`npm install react-scripts --save`)
 
 ## Frontend Setup
@@ -14,10 +15,13 @@ Follow these steps to get the frontend running on your local machine:
 
 ### Configure the Environment
 
-1. **Navigate to your frontend (client) directory** where the `package.json` file is located.
+1. Clone the repository
+2. Install Backend Dependencies
+3. Install Frontend Dependencies
+4. Install Firebase package, if needed.
+5. Backend running on PORT=3002, Frontend running on PORT=3001
 
-### Update `package.json`
+### Running the Application
 
-2. **Modify your `package.json`** to include the necessary script to start the frontend:
-   ```json
-   "start": "set PORT=3001 && react-scripts start"
+1. Start Backend Server (`npm run dev`)
+2. Start Frontend Server (`npm start`)
