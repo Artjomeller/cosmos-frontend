@@ -1,6 +1,6 @@
 # Cosmos Odyssey
 
-A space travel booking application that allows users to book flights between different planets in our solar system. Built with React, Node.js, Express, and Firebase.
+A space travel booking application that allows users to book flights between different planets in our solar system. Built with React, Node.js, Express, and Firebase(noSQL) and MySQL db's.
 
 ## Prerequisites
 
