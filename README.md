@@ -11,7 +11,7 @@ Before proceeding, ensure the following is installed:
 
 ## Frontend Setup
 
-Follow these steps to get the frontend running on your local machine:
+Follow these steps to get the frontend running on your local machine: All frontend is running App.js
 
 ### Configure the Environment
 
