@@ -1,13 +1,15 @@
 # Cosmos Odyssey
 
-A space travel booking application that allows users to book flights between different planets in our solar system. Built with React, Node.js, Express, and Firebase.
-
+A space travel booking application that allows users to book flights between different planets in our solar system, built with React, Node.js, Express, and using two databases: Firebase & MySQL.
+![Kuvatõmmis 2](images/cosmos2.png)
+![Kuvatõmmis 3](images/cosmos3.png)
 ## Prerequisites
 
 Before proceeding, ensure the following is installed:
 - Node.js and npm installed
 - Install firebase (`npm install firebase-admin`)
 - React Scripts (`npm install react-scripts --save`)
+- XAMPP Apache and Mysql DB
 
 ## Frontend Setup
 
@@ -25,8 +27,8 @@ Follow these steps to get the frontend running on your local machine: All fronte
 8. Backend running on PORT=3002, Frontend running on PORT=3001
 
 ### Running the Application
-
-1. Start Backend Server (`npm run dev`)
-2. Start Frontend Server (`npm start`)
+1. Start XAMPP Apache & MySQL
+2. Start Backend Server (`npm run dev`)
+3. Start Frontend Server (`npm start`)
 
 
